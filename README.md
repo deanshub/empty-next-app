@@ -14,6 +14,7 @@ const withInItStats = require('next-in-it-stats/cjs')({
   name: 'empty next app',
 });
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
 };
